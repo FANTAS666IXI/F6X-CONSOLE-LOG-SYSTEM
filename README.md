@@ -8,7 +8,7 @@
 ---
 
 - **STACK :**
-  - **CONSOLE LOG SYSTEM** : `0.1.0`
+  - **CONSOLE LOG SYSTEM** : `0.2.0`
   - **UNITY** : `2022.3.20f1`
 
 ---
