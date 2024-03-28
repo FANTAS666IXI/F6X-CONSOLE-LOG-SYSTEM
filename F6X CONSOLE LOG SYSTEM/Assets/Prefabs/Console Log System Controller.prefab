@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 5133271059887508795}
   - component: {fileID: 3116536121428673062}
   m_Layer: 0
-  m_Name: Console Log System
-  m_TagString: Untagged
+  m_Name: Console Log System Controller
+  m_TagString: ConsoleLogSystem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44,6 +44,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 487903427bb6d2643a71f281b6dbcfde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  classColor: {r: 0, g: 0.26666668, b: 0.8, a: 1}
   consoleLog: 1
   consoleLogSystem: 1
+  logColor: {r: 0, g: 0.26666668, b: 0.8, a: 1}

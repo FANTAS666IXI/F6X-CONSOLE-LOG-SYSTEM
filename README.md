@@ -7,8 +7,13 @@
 
 ---
 
+- **CONTROLS :**
+  - **Console Log Messages: `D`**
+
+---
+
 - **STACK :**
-  - **CONSOLE LOG SYSTEM** : `0.2.0`
+  - **CONSOLE LOG SYSTEM** : `0.3.0`
   - **UNITY** : `2022.3.20f1`
 
 ---
