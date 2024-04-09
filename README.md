@@ -9,11 +9,12 @@
 
 - **CONTROLS :**
   - **Console Log Messages: `D`**
+  - **Exit Game: `ESCAPE`**
 
 ---
 
 - **STACK :**
-  - **CONSOLE LOG SYSTEM** : `0.3.0`
+  - **CONSOLE LOG SYSTEM** : `1.0.0`
   - **UNITY** : `2022.3.20f1`
 
 ---
