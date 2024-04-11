@@ -5,7 +5,6 @@ using UnityEngine;
 
 public class ConsoleLogSystemController : MonoBehaviour
 {
-
     [Header("Console Log System Settings")]
     public bool consoleLog;
     public bool consoleLogSystem;
@@ -25,9 +24,7 @@ public class ConsoleLogSystemController : MonoBehaviour
         logFilePath = Path.GetDirectoryName(Application.dataPath) + "/ConsoleLogSystem";
         if (!Directory.Exists(logFilePath))
             Directory.CreateDirectory(logFilePath);
-        string timeStamp = DateTime.Now.ToString("yy-MM-dd-HH-mm");
-        logFilePath += "/Log-" + timeStamp + ".log";
-        UnityEngine.Debug.Log(logFilePath);
+        logFilePath += "/Log-" + DateTime.Now.ToString("yy-MM-dd-HH-mm") + ".log";
         using StreamWriter writer = new(logFilePath);
         writer.WriteLine("--- Console Log System Log ---");
         writer.Close();

@@ -1,13 +1,7 @@
-using System;
-using System.IO;
 using UnityEngine;
-using UnityEngine.UI;
 
-public class GameController : MonoBehaviour
+public class ConsoleLogSystemExample : MonoBehaviour
 {
-    public Text pathText;
-    private string logFilePath;
-
     // Set Console Log Settings Public && Declare Console Log System Controller
     [Header("Console Log Settings")]
     public bool consoleLog;
@@ -18,27 +12,27 @@ public class GameController : MonoBehaviour
     {
         // Reference Console Log System Controller By Tag
         consoleLogSystemController = GameObject.FindGameObjectWithTag("ConsoleLogSystem").GetComponent<ConsoleLogSystemController>();
-
-        logFilePath = Path.GetDirectoryName(Application.dataPath) + "/ConsoleLogSystem";
-        string timeStamp = DateTime.Now.ToString("yy-MM-dd-HH-mm");
-        logFilePath += "/Log-" + timeStamp + ".log";
-        if (logFilePath != null)
-            pathText.text = logFilePath;
-        else
-            pathText.text = "Path Null";
-    }
-
-    private void Start()
-    {
-        ConsoleLog("Starting Game...");
     }
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.D))
         {
-            ConsoleLog("Closing Game...");
-            Application.Quit();
+            // Use Console Log ()
+            ConsoleLog();
+            ConsoleLog("Message 1");
+            ConsoleLog("Message 2", false);
+            ConsoleLog("Message 3", true);
+            ConsoleLog("Message 4", false, 0);
+            ConsoleLog("Message 5", true, 0);
+            ConsoleLog("Message 6", false, 1);
+            ConsoleLog("Message 7", true, 1);
+            ConsoleLog("Message 8", false, 2);
+            ConsoleLog("Message 9", true, 2);
+            ConsoleLog("Message 10", false, 3);
+            ConsoleLog("Message 11", true, 3);
+            ConsoleLog("Message 12", false, -1);
+            ConsoleLog("Message 13", true, -1);
         }
     }
 

@@ -14,7 +14,7 @@
 ---
 
 - **STACK :**
-  - **CONSOLE LOG SYSTEM** : `1.0.0`
+  - **CONSOLE LOG SYSTEM** : `1.1.0`
   - **UNITY** : `2022.3.20f1`
 
 ---
