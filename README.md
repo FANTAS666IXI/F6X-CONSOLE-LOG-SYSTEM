@@ -1,4 +1,4 @@
-# _CONSOLE LOG SYSTEM_
+# _F6X CONSOLE LOG SYSTEM_
 
 ![THUMBNAIL](Resources/Img/Thumbnail.png)
 
@@ -13,7 +13,7 @@
 ---
 
 - **STACK :**
-  - **CONSOLE LOG SYSTEM** : `1.1.1`
+  - **CONSOLE LOG SYSTEM** : `1.2.0`
   - **UNITY** : `2022.3.20f1`
 
 ---
