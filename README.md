@@ -12,8 +12,13 @@
 
 ---
 
+- **URLS :**
+  - **Download: [Packages](https://github.com/FANTAS666IXI/F6X-CONSOLE-LOG-SYSTEM/releases/latest)**
+
+---
+
 - **STACK :**
-  - **CONSOLE LOG SYSTEM** : `1.3.0`
+  - **CONSOLE LOG SYSTEM** : `1.4.0`
   - **UNITY** : `2022.3.20f1`
   - **UNITY** : `2019.3.6f1`
 

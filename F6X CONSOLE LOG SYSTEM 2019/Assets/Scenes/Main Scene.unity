@@ -216,6 +216,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Console Log System Controller
       objectReference: {fileID: 0}
+    - target: {fileID: 3116536121428673062, guid: b746cc94821908649897733e1df42536,
+        type: 3}
+      propertyPath: consoleLogSystemMaster
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5133271059887508795, guid: b746cc94821908649897733e1df42536,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -339,6 +344,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Console Log System Example
+      objectReference: {fileID: 0}
+    - target: {fileID: 9128351698044763512, guid: 8d005d0d0e6f632428ab7e387b2f9a63,
+        type: 3}
+      propertyPath: consoleLogSystem
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8d005d0d0e6f632428ab7e387b2f9a63, type: 3}
